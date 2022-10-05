@@ -6,16 +6,18 @@ This will also be my first experience with github, so I'm open to suggestions fo
 Cheers!
 
 ## Introduction - What is BeagleBone?
-The beagles are "tiny open-hardware, open-software computers at low-cost, community-supported development platform for developers and hobbyists" [Reference]( https://beagleboard.org/). But I think you already knew this since you search for this and end up here.
+The beagles are "tiny open-hardware, open-software computers at low-cost, community-supported development platform for developers and hobbyists" ([Reference]( https://beagleboard.org/)). But I think you already knew this since you search for this and end up here.
 There are different board types according to their porpuse. For example, the BeagleBone Black (BBB) is the base of all beagles, this one is for general porpuse. The BeagleBone Green (BBG) is based on the BBB and developed for SeedStudio making it easier to connect to the large family of Grove sensors (don't really know much about it).
 The BeagleBone Blue (BBBL) is designed as the BBB with the robotics cape all in a single board, and of course, is meant for robotics applications.
-Refer to this [site](https://beagleboard.org/blue) for official information on the BBBL. There's also a good video for setting it up that you can check [here](https://youtu.be/pTpUMajQS_U)
+Refer to this [site](https://beagleboard.org/blue) for official information on the BBBL. There's also a good video for setting it up that you can check [here](https://youtu.be/pTpUMajQS_U).
 
 On practice you can just grab an SD card and load an OS image onto it and plug it on the beagle, conect via USB with it and start programming like in the video above.
 But I was a little lost facing the interactions with my BBBL, so I'll go step by step and explaining things a little more deeply so everyone can understand what's going on.
 Let's begin.
 
 ## BeagleBone Blue Specifications
+...
+### This is a test
 This is a test `this is a test` this is a test
 ```
 this is also a test
