@@ -1,4 +1,4 @@
-# beaglebone-blue-experience
+# My BeagleBone Blue Experience
 Content that helped me on my experience with the BeagleBone Blue (BBBL)
 
 Since my experience learning to use the BeagleBone Blue (will be referred as BBBL from now on) wasn't that smooth, and quite difficult. It's my objective to create here a tutorial-like guide on the usage of this powerful board, perfect for robotics applications by the way.
