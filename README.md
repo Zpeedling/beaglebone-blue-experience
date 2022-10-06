@@ -17,6 +17,20 @@ Let's begin.
 
 ## BeagleBone Blue Specifications
 ...
+|Parameter|Type|Default|Description|
+|:---|:---:|:---:|:---|
+|`~/i2c_bus`|int|1|The I2C bus number to communicate with the MPU9250 over.|
+|`~/i2c_address`|int|0x68|The I2C address of the MPU9250.|
+|`~/interrupt_gpio_pin`|int|0|The GPIO input pin connected to the MPU9250's interrupt pin. **NOTE:** [You must use GPIO numbers, not pin numbers.](http://abyz.me.uk/rpi/pigpio/index.html#Type_3)|
+|`~/gyro_dlpf_frequency`|int|0|An enum value representing the digital low pass filter (DLPF) cutoff frequency for the gyroscopes and temperature sensor. See [table](#42-digital-low-pass-filters) for enumerated DLPF values to select from.|
+|`~/accel_dlpf_frequency`|int|0|An enum value representing the digital low pass filter (DLPF) cutoff frequency for the accelerometers. See [table](#42-digital-low-pass-filters) for enumerated DLPF values to select from.|
+|`~/gyro_fsr`|int|0|The full scale range (FSR) of the gyroscopes. See [table](#41-full-scale-ranges) for enumerated FSR values to select from.|
+|`~/accel_fsr`|int|0|The full scale range (FSR) of the accelerometers. See [table](#41-full-scale-ranges) for enumerated FSR values to select from.|
+|`~/max_data_rate`|float|8000|The maximum allowable sensor data rate, in Hz. [The sensor's data rate is normally calculated from the DLPF frequencies](#43-data-rates), but this parameter may be used to set a lower cap on the data rate.|
+|`~/calibration/accelerometer`|float\[16\]|empty|The 4x4 calibration matrix for the accelerometer in row-major order. See the [calibration](#44-calibration) section for more information.|
+|`~/calibration/magnetometer`|float\[16\]|empty|The 4x4 calibration matrix for the magnetometer in row-major order. See the [calibration](#44-calibration) section for more information.|
+
+
 ### This is a test
 This is a test `this is a test` this is a test
 ```
