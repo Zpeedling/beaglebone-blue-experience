@@ -22,3 +22,12 @@ This is a test `this is a test` this is a test
 ```
 this is also a test
 ```
+
+## How to setup ROS with python 3
+[Reference](https://medium.com/@beta_b0t/how-to-setup-ros-with-python-3-44a69ca36674)
+Open bash and run the following commands
+```
+sudo apt-get install python3-pip python3-yaml
+sudo pip3 install rospkg catkin_pkg
+```
+And that's it.
