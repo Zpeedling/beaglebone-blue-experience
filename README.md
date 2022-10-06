@@ -30,8 +30,6 @@ Open bash and run the following commands
 sudo apt-get install python3-pip python3-yaml
 sudo pip3 install rospkg catkin_pkg
 ```
-And that's it. You should see something like this:
-![image](https://user-images.githubusercontent.com/69826151/194328305-524a1caf-8885-498e-b2fb-d91fc9cfdde2.png)
-![image](https://user-images.githubusercontent.com/69826151/194328585-2a79bef2-b9ef-4a99-89d0-841d54b7db9e.png)
-(This is just a test with images, they'll probably get removed later)
-
+`sudo apt-get install python3-pip python3-yaml`
+`sudo pip3 install rospkg catkin_pkg`
+And that's it.
